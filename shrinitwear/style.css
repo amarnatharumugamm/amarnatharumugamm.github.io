@@ -1,0 +1,135 @@
+*
+{
+    font-family: 'Montserrat';
+}
+body{
+    margin: 0;
+
+}
+.section-padding{
+    padding: 50px 0;
+}
+.navbar .navbar-brand{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-nav > li{
+    margin-left:15px;
+    margin-right:15px;
+  }
+.navbar-nav a{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight:20px;
+   word-wrap: normal;
+   
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+.navbar-nav a:hover{
+  
+    color: rgb(18, 222, 18) !important;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: black;
+}
+.w-100{
+    height: 100vh;
+}
+.service .card-body i{
+    font-size: 50px;
+}
+.team .card-body{
+    font-size: 20px;
+
+}
+.hline{
+    width: 70px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(66, 205, 66);
+    margin: 16px auto 0 auto;
+}
+
+.intro{
+     
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    background-image: url("images/iStock-174477907.jpg");
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0.8;
+    transition: .5s ease;
+  }
+  
+.card:hover .intro {
+    bottom: 0;
+    height: 100%;
+  }
+.intro a{
+text-decoration: none; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 10%;
+    left: 5%;
+}
+.card-text{
+    color:black;
+    font-size: 10px;
+    position: absolute;
+    overflow: hidden;
+    top: 25%;
+    left: 9%;
+}
+#footer {
+    
+
+    height: 20px;
+    margin: 0 auto;
+    color: #555555;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+   
+}
+#footer a{
+    text-decoration: none;
+   
+   
+    height: 20px;
+    margin: 0 auto;
+    color: #555555;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+   
+    .about-text{
+        padding-top: 50px;
+
+    }
+    .card{
+        margin-bottom: 30px;
+
+    }
+}
