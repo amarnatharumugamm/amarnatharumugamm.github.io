@@ -1,0 +1,1 @@
+{"version":3,"sources":["Components/DrugCalculator/ListDrug.js"],"names":["ListDrug"],"mappings":"2GAAA,2BAMeA,UAJf,WACE,OAAO","file":"static/js/25.51ab9a50.chunk.js","sourcesContent":["import React from \"react\";\n\nfunction ListDrug() {\n  return <div>ListDrug</div>;\n}\n\nexport default ListDrug;\n"],"sourceRoot":""}

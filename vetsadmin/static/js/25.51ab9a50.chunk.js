@@ -1,0 +1,2 @@
+(window.webpackJsonpVetsline=window.webpackJsonpVetsline||[]).push([[25],{427:function(n,e,t){"use strict";t.r(e);var i=t(0),s=t.n(i);e.default=function(){return s.a.createElement("div",null,"ListDrug")}}}]);
+//# sourceMappingURL=25.51ab9a50.chunk.js.map
